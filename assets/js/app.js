@@ -29,3 +29,5 @@ scrollUp.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+//Visitor Count

@@ -47,10 +47,12 @@ body {
   font-family: var(--font-family);
 }
 
+/*
 section {
   /* max-width: 1100px;
-  margin: auto; */
+  margin: auto; 
 }
+*/
 
 /* CSS Resets end */
 
@@ -69,6 +71,10 @@ nav {
 }
 
 nav h1 {
+  color: var(--primary-color);
+}
+
+nav h3 {
   color: var(--primary-color);
 }
 
