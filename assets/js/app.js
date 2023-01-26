@@ -31,3 +31,24 @@ scrollUp.addEventListener("click", () => {
 });
 
 //Visitor Count
+var apiUrl = "https://jpd2i9ev77.execute-api.us-east-1.amazonaws.com/dev";
+console.log("At fetching data from Api...")
+fetch(apiUrl)
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById("counterbody").innerHTML = data;
+    console.log(data)
+  })
+  .catch(error=>console.log(error));
+
+/*
+var apiUrl = "https://jpd2i9ev77.execute-api.us-east-1.amazonaws.com/dev";
+console.log("At trying to fetch Api...")
+fetch(apiUrl)
+  .then(response => response.json())
+  .then(data => {
+    var count = document.getElementById('counterbody');
+    count.innerHTML = data.body;
+    console.log(data)
+  });
+  */
