@@ -1,0 +1,31 @@
+# Build artifacts
+bin/
+obj/
+
+# Environment-specific files
+*.user
+*.suo
+*.ncb
+*.opensdf
+*.sdf
+*.cache
+*.log
+
+# Third-party libraries
+node_modules/
+
+# Test output
+test-results/
+coverage/
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+
+# Personal files
+.vscode/
+
+# Windows-specific files
+Thumbs.db
+Desktop.ini
