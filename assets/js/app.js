@@ -31,7 +31,7 @@ scrollUp.addEventListener("click", () => {
 });
 
 //Visitor Count
-var apiUrl = "https://jpd2i9ev77.execute-api.us-east-1.amazonaws.com/dev";
+var apiUrl = "https://oazo4az62f.execute-api.us-east-1.amazonaws.com/dev";
 console.log("At fetching Visitor Count from API...")
 fetch(apiUrl)
   .then(response => response.json())
