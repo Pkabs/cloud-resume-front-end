@@ -61,7 +61,8 @@
         <p class="bio-text">
           I am a certified AWS Cloud Practitioner aspring to be a AWS cloud engineer. 
           Have successfully done projects such as cloud resume challenge by Forrest Brazeal
-          which is a hands-on project to create a resume website and deploy on AWS cloud.
+          which is a hands-on project to create a resume website with a visitor count functionality 
+          and deploy on AWS cloud.
         </p>
       </div>
     </section>
@@ -70,9 +71,13 @@
     <section class="more-about">
       <h2>More About Me</h2>
       <p>
-        By completing the cloud resume challenge, I was able to use Html/CSS/Js to create the front-end of the website,
-        AWS services such S3, CloudFront, API gateway, lambda, Route 53, Certificate Manager, Dynamo Database to build the services that will support the website
-        and use tools such as terraform for represent the infrastructure as code(IAC), Git/Github/Github Actions for creating CI/CD pipeline and VS Code as the code editor.
+        By completing the cloud resume challenge, I was able to use Html/CSS/JS to create the front-end of the website,
+        setup AWS services such S3(to store the website files), CloudFront(to serve websites files from s3), 
+        API gateway(to create REST API), lambda(to create python function that will interact with the Dynamo DB using boto3 library),
+        Route 53(to route our domain traffic to cloudfront distribution), 
+        Certificate Manager(to create SSL certificate for enabling https), Dynamo Database(to store visitor counts) 
+        to build the services that will support the website and use tools such as terraform for represent the 
+        infrastructure as code(IAC), Git/Github/Github Actions for creating CI/CD pipeline and VS Code as the code editor.
       </p>
       <p>
         I also got to experience the dreaded CORS(Cross Origin Resource Sharing) and how to solve the CORS error
