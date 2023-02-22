@@ -24,5 +24,6 @@ jobs:
       run: sudo apt-get install awscli -y
 
     - name: Deploy to S3
-      run: aws s3 sync . s3://cloud-resume-challenger-peter --exclude ".git/*"
-         : aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_DISTRIBUTION_ID }} --paths '/*'
+      run : |
+        aws s3 sync . s3://cloud-resume-challenger-peter --exclude ".git/*"
+        aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_DISTRIBUTION_ID }} --paths '/*'
