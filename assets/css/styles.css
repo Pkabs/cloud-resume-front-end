@@ -223,18 +223,15 @@ nav ul li {
 
 /* Certification Section */
 .certs {
-  background-color: var(--bg-color);
-  padding: 1rem 6rem;
-}
-
-.certs-title h2 {
-  margin-bottom: var(--bottom-margin-3);
+  max-width: 68.75rem;
+  margin: auto;
   text-align: center;
+  margin-top: 2.0rem;
 }
 
 .certs-img {
-  width: 20%;
-  height: 15%;
+  width: 15rem;
+  height: 15rem;
 }
 
 /* Certification Section end*/
