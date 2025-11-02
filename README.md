@@ -1,6 +1,6 @@
 # Cloud Resume Front End
 
-THE front end part of the cloud resume challenge consist of the following AWS services, cloud front, route 53, certificate manager and S3 bucket. 
+The front end part of the cloud resume challenge consist of the following AWS services, cloud front, route 53, certificate manager and S3 bucket. 
 
 Route 53 which is a DNS service, routes requests to cloud front which then serves the website content from S3 bucket.
 
